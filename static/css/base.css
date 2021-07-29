@@ -1,0 +1,70 @@
+body{
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+#type_effect{
+  font-size:110px;
+  text-align: center;
+  margin-top:350px;
+  color: #FFFFFF;
+  border: 0px groove #1C6EA4;
+  border-radius: 40px 40px 40px 40px;
+  border: 2px solid orange ;
+  padding: inherit;
+}
+
+
+.navbar-light .navbar-brand{
+  font-size:35px;
+  color:#ffffff;
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  font-size:35px
+  color:#ffffff;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+
+  color:#ffffff;
+}
+
+
+.navbar-light .navbar-toggler {
+
+  color: rgba(0,0,0,.5);
+  border-color: rgb(255 255 255);
+}
+
+
+.navbar-light .navbar-brand{
+
+  color:#ffffff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+
+  color:#ffffff;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+
+  color:#ffffff;
+}
+
+
+.navbar-light .navbar-toggler {
+
+  color: rgba(0,0,0,.5);
+  border-color: rgb(255 255 255);
+}
+.dropdown-menu {
+    font-size: 500px;
+}
+.navbar-text{
+    font-size: 500px;
+}

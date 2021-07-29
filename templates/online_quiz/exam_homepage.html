@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'online_quiz/exam_base.html'%}
+{% block exam_base %}
+
+<h1 id="start_exam" class="alert ">Click to <a id="link1" href="/quiz" class="alert alert-link" >START</a>{{aaa.quiz_name}} Quiz</h1>
+<hr>
+<div class="jumbotron jumbotron-fluid rounded-right">
+  <div class="container">
+    <h1 class="display-4">Rules</h1>
+    <p class="lead">1 >Each Question carries 1 mark</p>
+    <p class="lead">2 >There will be 10 questions in all</p>
+    <p class="lead">3 >There will be no Negative marking</p>
+    <p class="lead">4 >Pass percentage is 33%</p>
+  </div>
+</div>
+{% endblock %}

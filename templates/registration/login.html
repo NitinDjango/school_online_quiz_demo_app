@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends 'online_quiz/base.html'%}
+{% block base %}
+
+<h1>STAFF LOGIN TO CREATE QUIZ(MANDATORY ACTION)</h1>
+<form method="post">
+{{form.as_p}}
+{%csrf_token%}
+<input type="submit" class="btn btn-primary" name="" value="Create Quiz" >
+</form>
+
+
+
+
+{% endblock %}
